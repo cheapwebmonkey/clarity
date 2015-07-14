@@ -20,7 +20,12 @@ img {
   
   .col-1-2 {
     float: left;
-    width: 45%;
+    width: 33%;
+    
+  }
+  .col-2-3 {
+    float: left;
+    width: 66%;
     
   }
 
@@ -92,7 +97,12 @@ img {
 		padding: 50px 15px;
 		margin-bottom: 20px;
 	}
-  
+  .feat-text {
+		width: 50%;
+		float: left;
+		padding-left: 60px;
+        padding-bottom: 60px;
+	}
 
 	/* Imagery
 	================================ */

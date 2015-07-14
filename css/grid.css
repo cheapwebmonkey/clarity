@@ -92,19 +92,27 @@ img {
 	  display: table;
 	  clear: both;
 	}
-  .clearfix:before,
-  .clearfix:after {
-    content: " ";
-    display: table;
-  }
+     /*-- our cleafix hack -- */ 
+    .row:before, 
+    .row:after {
+        content:"";
+        display: table ;
+         clear:both;
+    }
+    .clearfix:before,
+    .clearfix:after {
+      content: " ";
+      display: table;
+    }
 
-  .clearfix:after {
-    clear: both;
-  }
+    .clearfix:after {
+      clear: both;
+    }
 
-  .clearfix {
-    *zoom: 1;
-  }
+    .clearfix {
+      *zoom: 1;
+    }
+
 }
 @media (min-width: 1200px) {
 	.grid-container {
