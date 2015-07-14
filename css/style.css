@@ -63,12 +63,10 @@ body {
   border-left: 2px solid #000;
   border-right: 2px solid #000;
 }
-/*
   font-family: Helvetica, Helvetica Neue, Arial;
   font-size: 12px;
   color:black;
   min-height: 700px;
-*/
 }
 
 
@@ -99,9 +97,26 @@ body {
     color: #000;
 }
 
+
 .h3 {
     color: #000;
 }
+
+/****************
+Nav
+*****************/
+.navbar.navbar-collapse {
+  @include navbar($collapse: true);
+}
+
+.navbar {
+  @include navbar($breakpoint: $tablet, $collapse: true);
+}
+
+@include navbar($breakpoint: 768px, $collapse: true);
+@include navbar($breakpoint: 200em, $collapse: true);
+@include navbar($breakpoint: 500pt, $collapse: true);
+
 
 nav ul {
   margin: 0;
@@ -126,11 +141,12 @@ hr.vertical
 }
 */
 
-/*
+
 nav li:before {
   content: " | ";
 }
-*/
+
+
 
 nav a {
   display: block;
@@ -151,6 +167,7 @@ nav a:visited {
 nav a:hover {
   text-decoration: underline;
 }
+
 
 IMG.displayed {
     display: inline-grid;
@@ -212,6 +229,7 @@ Media Queries
 
 @media only screen and (min-width: 480px) {
 
+
   nav a {
     float: right;
     width: 30%;
@@ -227,6 +245,7 @@ Media Queries
   nav li:last-child a {
     margin-right: 0;
   }
+
   .greybox {
     align-content: center;
     max-width: 100%;
@@ -249,6 +268,7 @@ Media Queries
     float: left;
     font-size: 1.4em;
   }
+
 
   nav {
     float: right;
