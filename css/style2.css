@@ -9,7 +9,7 @@
 body {
 	font: normal 1em/1.5 sans-serif;
 	color: #666666;
-	background-color: #edeff0;
+	background-color: #FFFFFF;
 }
 h2, h3 {
   font: normal 1.5/2em sans-serif;
@@ -116,9 +116,9 @@ img {
 		display: inline-block;
 	}
 	.main-banner {
-		background: #dfe2e4;
+		background: #FFFFFF;
 		text-align: center;
-		padding: 50px 15px;
+		padding: 0px 15px 0;
 		margin-bottom: 20px;
 	}
   .feat-text {
