@@ -1,0 +1,330 @@
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.2;
+  box-sizing: border-box;
+
+  
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Helvetica, Helvetica Neue, Arial;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+
+}
+.header-container {
+/*   border-bottom: 3px solid #FFF;*/
+  
+}
+
+.footer-container {
+  border-top: 20px solid #e0e0e0;
+}
+.main aside {
+  margin-top: 50px;
+  border-top: 20px solid #e0e0e0;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #FFF;
+}
+
+#logo {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#logobox {
+    height: auto;
+    margin: 20px 10px 0;
+}
+
+#clarityLogo {
+    height: auto;
+    width: 15%;
+    position: absolute;
+    margin: -8px -5px 0;
+}
+
+.title {
+    color: #000;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/*
+hr.vertical
+{
+   width: 0px;
+   height: 100%;  or height in PX 
+} 
+
+.pipe {
+    display:inline-block;
+    margin-bottom:-1em;
+    height:3em; width:0.25em;
+    background-color:grey;
+    margin-left:0.5em; 
+    margin-right:0.5em;
+}
+*/
+
+/*
+nav li:before {
+  content: " | ";
+}
+*/
+
+nav a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  text-align: right;
+  text-decoration: none;
+  font-weight: lighter;
+  color: #898989;
+  background: #FFF;
+}
+
+nav a:hover,
+nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+IMG.displayed {
+    display: inline-grid;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+/*
+.box{
+    background-image: url('../img/headertopbar.png');
+	background-repeat: repeat;
+	background-position:  200% 100%;
+*/
+  
+  /*
+    width: 958px;
+    height: 40px;
+    background: #eee;
+    border: 40px, 0, 0, 0 solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+    border-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+    border-image-slice: 1;
+*/
+
+
+
+.main {
+  padding: 5px 0;
+}
+
+.main article h1 {
+  font-size: 2em;
+}
+
+.main aside {
+  color: white;
+  padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+  color: white;
+  padding: 20px 0;
+}
+
+
+/*************************
+Media Queries
+*************************/
+
+@media only screen and (min-width: 480px) {
+
+  nav a {
+    float: right;
+    width: 30%;
+    margin: 0 0 0 3px;
+    padding: 5px 2px;
+    margin-bottom: 0;
+  }
+
+  nav li:first-child a {
+    margin-left: 0;
+  }
+
+  nav li:last-child a {
+    margin-right: 0;
+  }
+  .greybox {
+    align-content: center;
+    max-width: 100%;
+           
+ }
+ 
+   .city {
+    align-content: center;
+    max-width: 100%;
+           
+  }
+  
+}
+
+@media only screen and (min-width: 768px),
+       only screen and (min-width: 700px) and (orientation: landscape) {
+
+  .title {
+    float: left;
+    font-size: 1.4em;
+  }
+
+  nav {
+    float: right;
+    width: 60%;
+  }
+
+  nav a {
+    padding: 15px 1%;
+  }
+
+  .main article {
+    float: left;
+    width: 57%;
+  }
+
+  .main aside {
+    float: right;
+    width: 38%;
+  }
+  
+  .greybox {
+    align-content: center;
+    max-width: 100%;
+           
+ }
+ 
+   .city {
+    align-content: center;
+    max-width: 100%;
+           
+  }
+ 
+  
+}
+
+@media only screen and (min-width: 1140px) {
+
+  .wrapper {
+    width: 1026px;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  nav a {
+    padding: 25px 1%;
+  }
+  
+    .greybox {
+/*    align-content: center;*/
+    max-width: 100%;
+           
+ }
+ 
+   .city {
+    align-content: center;
+    max-width: 100%;
+           
+  }
+  
+  
+}
+
+/************************
+Pix grid row
+*************************/
+/* resets */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.clearfix:after {
+	content: "";
+  display: table;
+  clear: both;
+}
+
+/* global */
+
+.wrapperpic {
+  margin: 0 auto;
+  padding: 5px;
+  max-width: 95%;
+  background-color: #fff;
+}
+
+
+/* grid */
+.row {
+  margin: 0 -10px;
+  margin-bottom: 20px;
+}
+.row:last-child {
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding: 10px;
+}
+
+@media all and ( min-width: 950px ) {
+  
+  .col-1-2 {
+    float: left;
+    width: 50%;
+  }
+
+  
+}
+
+/*************************
+Clearfix
+*************************/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
