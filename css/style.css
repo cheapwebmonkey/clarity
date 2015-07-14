@@ -19,6 +19,10 @@ html {
 .grid-pad > [class*='col-']:last-of-type {
   padding-right: 20px;
 }
+p
+ {
+  color:#666666;
+}
 
 body {
   font-family: Helvetica, Helvetica Neue, Arial;
@@ -42,7 +46,22 @@ body {
 }
 .main aside {
   color: black;
+  margin-top: 20px;
   padding: 0px 5% 10px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.main aside2 {
+  color: black;
+  margin-top: 20px;
+  padding: 0px 5% 10px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
 }
 /*
   font-family: Helvetica, Helvetica Neue, Arial;
@@ -173,6 +192,13 @@ IMG.displayed {
   
 }
 
+.main aside2 {
+  color: black;
+  padding: 0px 5% 10px;
+  
+}
+
+
 
 .footer-container footer {
   color: white;
@@ -206,6 +232,7 @@ Media Queries
     max-width: 100%;
            
  }
+ 
  
    .city {
     align-content: center;
@@ -242,7 +269,7 @@ Media Queries
     width: 38%;
   }
          
-   .aside2 {
+   .main aside2 {
     float: right;
     width: 38%;
   }
