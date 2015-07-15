@@ -101,7 +101,7 @@ img {
 @media (min-width: 768px) { 
 
 
-/* Main Layout Styles
+/* Layout Styles
 ================================ */
 
 
@@ -136,22 +136,7 @@ img {
     padding-bottom: 5%;
   }
   
-/* Imag
-================================ */
 
-	.feat-img {
-		width: 50%;
-		float: left;
-		margin: 5px 20px 10px 0;
-	}
-  
-  .feat-img2 {
-		width: 100%;
-		float: left;
-		margin: 0 20px 10px 0px;
-	}
-
-}
 
 @media (min-width: 1px) and (max-width: 767px)  {
 	.main-nav li {
