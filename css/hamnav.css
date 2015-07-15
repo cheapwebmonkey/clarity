@@ -4,6 +4,10 @@ body{
   margin:0;
   
 }
+
+li{
+  text-decoration: none;
+}
 header{
 	width:100%; 
 	background:white;
