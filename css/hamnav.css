@@ -1,15 +1,21 @@
 /*Ham Nav*/
 body{
-  font-family: 'Arial', sans-serif;
-	margin:0;
+  font-family: 'Arial' 'Helvetica' sans-serif
+  margin:0;
   
 }
 header{
 	width:100%; 
-	background:white; 
-	height:50px; 
+	background:white;
+	height:60px; 
 	line-height:50px;
 }
+
+.headerLogo {
+  float: left;
+  width: 100%;
+}
+
 .hamburger{
   background:none;
   position:absolute;
@@ -31,7 +37,7 @@ header{
   top:0px;
   right:0;
   padding:0px 15px 0px 15px;
-  color:#fff;
+  color:#000;
   border:0;
   font-size:3em;
   line-height:65px;
@@ -40,14 +46,14 @@ header{
   outline:none;
   z-index:10000000000000;
 }
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:yellow;  position:absolute; text-align:center;}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#FDD949;  position:absolute; text-align:center;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
 .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
-.menu li:hover{display: block;    background:light-yellow; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
-.menu ul li a { text-decoration:none;  margin: 0px; color:#fff;}
+.menu li:hover{display: block;    background:#FDD949; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#000;}
 .menu ul li a:hover {  color: #fff; text-decoration:none;}
 .menu a{text-decoration:none; color:grey;}
-.menu a:hover{text-decoration:none; color:white;}
+.menu a:hover{text-decoration:none; color:grey;}
 
 .glyphicon-home{
   color:white; 

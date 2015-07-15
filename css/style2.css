@@ -6,15 +6,10 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-/*
-body {
-	font: normal 1em/1.5 sans-serif;
-	color: #666666;
-	background-color: #FFFFFF;
-}
-*/
-h2, h3 {
-  font: normal 1.5/2em sans-serif;
+
+
+*/h2, h3 {
+  font: normal 1.5em/2em sans-serif;
   color: black;
 }
 img {
@@ -23,40 +18,7 @@ img {
     max-width: 100%;
 }
 
-.bkg {
-  border-right: 95%;
-  border-right-color: aqua;
-}
 
-/*
-.ul2 {
-    margin: 0.75em 0;
-    padding: 0 1em;
-    list-style: none;
-}
-.li2:before { 
-*/
-/*
-    border-right:30px solid black;
-    border-bottom:30px solid black;
-    width:100px;
-    height:100px;
-    transform: rotate(-45deg);
-    margin-top:40px;
-*/
-/*
-    content: "";
-    border-color: transparent #111;
-    border-style: dotted;
-    border-width: 0.35em 0 0.35em 0.45em;
-    display: block;
-    height: 0;
-    width: 0;
-    left: -1em;
-    top: 0.9em;
-    position: relative;
-*/
-/*}*/
 
 @media all and ( min-width: 950px ) {
   
@@ -84,37 +46,28 @@ img {
 /* Main Layout Styles
 ================================ */
 
-/*
-.main-header {
-	padding-top: px;
-	padding-bottom: 10px;
-	background-color: white; 
-}
-*/
+
 .main-logo {
+  display: inline-block;
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 1.5em;
+	width: 5%;
+    height: auto;
+    
 }
-/*.main-logo a, */
-/*
-.main-nav a {
-	display: block;
+.main-logo a {
+	display: inline-block;
 	text-align: center;
 	border-radius: 5px;
 	color: #767676;
 	text-decoration: none;
 	padding: 10px 20px;
 }
-*/
+
 .main-logo a { 
 	background-color: white; 
 }
-/*
-.main-nav a { 
-	background-color: white; 
-}
-*/
+
 
 .main aside {
   color: black;
@@ -153,34 +106,17 @@ img {
   padding-bottom: 5%;
 }
 
-
+.logo{
+  float: left;
+  max-width: 100%;
+}
 @media (min-width: 768px) { 
 
-	/* Main Layout Styles
-	================================ */
 
-/*
-	body {
-		padding-top: 75px;
-	}
-*/
-/*
-	.main-header {
-		position: fixed;
-		top: 0;
-		width: 100%;
-	}
-*/
-/*
-	.main-nav {
-		text-align: right;
-	}
-	.main-nav li {
-		margin-top: 6px;
-		margin-left: 10px;
-		display: inline-block;
-	}
-*/
+/* Main Layout Styles
+================================ */
+
+
 	.main-banner {
 		background: #FFFFFF;
 		text-align: center;
@@ -201,8 +137,8 @@ img {
   }
 
   
-	/* Imagery
-	================================ */
+/* Imag
+================================ */
 
 	.feat-img {
 		width: 50%;

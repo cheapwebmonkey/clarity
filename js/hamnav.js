@@ -15,9 +15,3 @@ $( ".hamburger" ).show();
 });
 });
 });
-
-$(function(){
-  $('#nav').click(function() {
-    $(this).toggleClass('open');
-  });
-});
