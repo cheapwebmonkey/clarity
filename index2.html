@@ -2,22 +2,42 @@
 <html>
 <head>
 	<title>Clarity</title>
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/hamnav.css">
 </head>
 <body>
+ 
+      <header>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+      </header>
+
+<div class="menu">
+  <ul>
+    <a href="#"><li>LINK ONE</li></a>
+    <a href="#"><li>LINK TWO</li></a>
+    <a href="#"><li>LINK THREE</li></a>
+    <a href="#"><li>LINK FOUR</li></a>
+  </ul>
+</div> 
+  <!--
 	<header class="main-header">
-		<div class="grid-container">		
-          <div class="grid-2 main-logo"><a href="#"><img src="img/clarity-logo.png"></a></div>
-			<ul class="grid-8 main-nav">
-				<li><a href="#">Why Clarity</a></li>
-				<li><a href="#">Benefits</a></li>
-				<li><a href="#">Diversity</a></li>
-			</ul>
-		</div>
-	</header>
+      
+				
+<div class="grid-2 main-logo"><a href="#"><img src="img/clarity-logo.png"></a></div>
+          </header>
+-->
+
+<!--			<ul class="grid-8">-->
+<!--				<li><a href="#">Why Clarity</a></li>-->
+<!--				<li><a href="#">Benefits</a></li>-->
+<!--				<li><a href="#">Diversity</a></li>-->
+<!--			</ul>-->
+      
+
 	<div class="main-banner">
       <img src="img/headertopbar.png" alt="">
       <img src="img/city-body.png" alt="">
@@ -47,25 +67,31 @@
     
 		<div class="grid-contianer grid-4">
         <aside>
+          <div class="box">
 			<h3>Connect with Clarity</h3>
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="128" height="20" viewBox="0 0 128 20">
   <image xlink:href="data:img/png;base64,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" width="128" height="20"/>
 </svg>
          </div>
-           
-			<p>xxxxxxxxxxxxxxxxxx</p>
-			<hr>
-			<p>Meatball pastrami shoulder, brisket ribeye spare ribs turkey tongue strip steak t-bone.</p
-          </aside>    
+          </div>
+          <div class="box2">
+			<div class="ul2"><h3>Useful Links</h3>
+              <div class="li2">> Your Career</div>
+              <div class="li2">> Work Life</div>
+              <div class="li2">> Locations</div>
+              <div class="li2">> Our Culture</div>
             </div>
-          
-</div>
-	</div>
- 
+            </aside>    
+            </div>
+	       </div>
+ </div>
 
 	<footer class="main-footer">
 		<p>Careers   |   Benefits   |   Privacy</p>
 	</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/hamnav.js"></script>
+      
 </body>
 </html>

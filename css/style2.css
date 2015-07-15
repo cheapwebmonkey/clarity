@@ -6,11 +6,13 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+/*
 body {
 	font: normal 1em/1.5 sans-serif;
 	color: #666666;
 	background-color: #FFFFFF;
 }
+*/
 h2, h3 {
   font: normal 1.5/2em sans-serif;
   color: black;
@@ -20,6 +22,41 @@ img {
 	padding: 5px;
     max-width: 100%;
 }
+
+.bkg {
+  border-right: 95%;
+  border-right-color: aqua;
+}
+
+/*
+.ul2 {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+.li2:before { 
+*/
+/*
+    border-right:30px solid black;
+    border-bottom:30px solid black;
+    width:100px;
+    height:100px;
+    transform: rotate(-45deg);
+    margin-top:40px;
+*/
+/*
+    content: "";
+    border-color: transparent #111;
+    border-style: dotted;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+*/
+/*}*/
 
 @media all and ( min-width: 950px ) {
   
@@ -47,41 +84,51 @@ img {
 /* Main Layout Styles
 ================================ */
 
+/*
 .main-header {
-	padding-top: 10px;
+	padding-top: px;
 	padding-bottom: 10px;
 	background-color: white; 
 }
+*/
 .main-logo {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 1.5em;
 }
-.main-logo a, 
+/*.main-logo a, */
+/*
 .main-nav a {
 	display: block;
 	text-align: center;
-/*	border-radius: 5px;*/
+	border-radius: 5px;
 	color: #767676;
 	text-decoration: none;
 	padding: 10px 20px;
 }
+*/
 .main-logo a { 
 	background-color: white; 
 }
+/*
 .main-nav a { 
 	background-color: white; 
 }
+*/
 
 .main aside {
   color: black;
   padding: 0px 5% 10px;
+  margin-bottom: 10px;
+ 
+
   
 }
 
 .main aside2 {
   color: black;
-  padding: 0px 5% 10px;
+  padding: 5%;
+  
   
 }
 .main-footer {
@@ -93,20 +140,38 @@ img {
  	background-color: #e0e0e0;
 }
 
+.box {
+  border: 1px solid #000;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.box2 {
+  border: 1px solid #000;
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
 
 @media (min-width: 768px) { 
 
 	/* Main Layout Styles
 	================================ */
 
+/*
 	body {
 		padding-top: 75px;
 	}
+*/
+/*
 	.main-header {
 		position: fixed;
 		top: 0;
 		width: 100%;
 	}
+*/
+/*
 	.main-nav {
 		text-align: right;
 	}
@@ -115,19 +180,20 @@ img {
 		margin-left: 10px;
 		display: inline-block;
 	}
+*/
 	.main-banner {
 		background: #FFFFFF;
 		text-align: center;
 		padding: 0px 15px 0;
 		margin-bottom: 20px;
 	}
-  .feat-text {
+   .feat-text {
 		width: 50%;
 		float: left;
 		padding-left: 60px;
         padding-bottom: 60px;
 	}
-  .col-3-4 {
+   .col-3-4 {
     float: left;
     width: 15%;
     border: 3px;
@@ -155,5 +221,6 @@ img {
 @media (min-width: 1px) and (max-width: 767px)  {
 	.main-nav li {
 		margin-top: 12px;
+        background-color: yellow;
 	}
 }
